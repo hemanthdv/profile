@@ -1,5 +1,5 @@
 ---
-layout: home2
+layout: home
 title: Me in a Nutshell
 description: "Hemanth Venkateswara's website"
 tags: [Jekyll, theme, responsive, blog, template]
