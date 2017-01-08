@@ -1,10 +1,10 @@
 ---
-layout: home
+layout: home2
 title: Me in a Nutshell
-description: "Hemanth Venkateswara's website"
+description: "Jordi Pont-Tuset's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: Monument_Valley_at_Night_(4078195042).jpg
+  feature: trees.jpg
 ---
 
 I'm a post-doctoral researcher in [Prof. Luc Van Gool](http://www.vision.ee.ethz.ch/members/get_member.cgi?id=1)'s [ETHZ vision group](http://www.vision.ee.ethz.ch/index.en.html).
