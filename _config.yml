@@ -1,25 +1,25 @@
-title:            Jordi Pont-Tuset's site
-description:      Welcome to my site.
+title:            Hemanth Venkateswara's site
+description:      Personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //jponttuset.github.io
+url:              //hemanthdv.github.io/profile
 #http://localhost:5000
 #https://jponttuset.github.io
-disqus_shortname: jponttuset
+disqus_shortname: hemanthdv
 
 # Owner/author information
 owner:
-  name:           Jordi Pont-Tuset
+  name:           Hemanth Venkateswara
   avatar:         jordi.png
-  bio:            I'm from a small town near Girona, Catalunya. Currently in Zürich, Switzerland. Passionate about computer vision, technology, running, and mountains.
-  email:          jponttuset@gmail.com
+  bio:            I am a researcher in machine learning and computer vision. I work on deep learning based domain adaptation. I enjoy Sanskrit poetry.
+  email:          
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: jponttuset
-  linkedin: jponttuset
-  google_scholar: VCBBx24AAAAJ
-  google_plus: 113718226018314522413
-  github: jponttuset
+  twitter: hemanthkdv
+  linkedin: hemanth-venkateswara-360a093
+  google_scholar: 0wmiTYoAAAAJ
+  google_plus: 
+  github: hemanthdv
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-52736040-1
+google_analytics: 
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -29,15 +29,17 @@ bing_verify:
 links:
   - title: Curriculum
     url: /cv/
+  - title: Research
+    url: /research/
   - title: Publications
     url: /publications/
-  - title: Code
-    url: /code/
+  - title: Service
+    url: /service/
   - title: Blog
     url: /blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    America/Phoenix
 future:      true
 #pygments:    true
 highlighter: rouge
