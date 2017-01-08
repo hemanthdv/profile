@@ -6,7 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: Monument_Valley_at_Night_(4078195042).jpg
 ---
-
+<!---
 [comment]: # I'm a post-doctoral researcher in [Prof. Luc Van Gool](http://www.vision.ee.ethz.ch/members/get_member.cgi?id=1)'s [ETHZ vision group](http://www.vision.ee.ethz.ch/index.en.html).
 
 <br />
@@ -14,4 +14,4 @@ image:
 
 <br />
 [comment]: # I am a mathematician, engineer, and PhD in computer vision by <a href="http://www.upc.edu" target="_blank">UPC Barcelonatech</a> under the supervision of <a href="https://imatge.upc.edu/web/ferran" target="_blank">Prof. Ferran Marques</a>.
-
+-->
