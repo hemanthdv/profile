@@ -3,13 +3,12 @@ description:      Personal website.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              //hemanthdv.github.io/profile
 #http://localhost:5000
-#https://jponttuset.github.io
 disqus_shortname: hemanthdv
 
 # Owner/author information
 owner:
   name:           Hemanth Venkateswara
-  avatar:         jordi.png
+  avatar:         Hemanth_256x256.png
   bio:            I am a researcher in machine learning and computer vision. I work on deep learning based domain adaptation. I enjoy Sanskrit poetry.
   email:          
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
