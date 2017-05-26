@@ -5,7 +5,7 @@ This site is based on the **[Minimal Mistakes](http://mmistakes.github.io/minima
 
 ## License
 
-Feel free to adapt this theme to your site without linking back to me or including a disclaimer. This website is based off Jordi Pont-Tuset's website - he deserves all the credit.
+This website is based off [Jordi Pont-Tuset's](https://github.com/jponttuset/jponttuset.github.io) website. Please feel free to reuse and credit the original author.
 
 ## To run it locally
 ```

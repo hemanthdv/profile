@@ -27,15 +27,15 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Curriculum
-    url: /cv/
+    url: #/cv/
   - title: Research
-    url: /research/
+    url: #/research/
   - title: Publications
-    url: /publications/
+    url: #/publications/
   - title: Service
-    url: /service/
+    url: #/service/
   - title: Blog
-    url: /blog/
+    url: #/blog/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Phoenix
