@@ -47,6 +47,9 @@ M = (1-m)A + mS
 ### Power Method
 The world wide web consists of nearly 60 trillion (tr) pages. Its link matrix is [\\(60tr \times 60tr\\)]. It is infeasible to find its eigenvector by standard techniques. This is where the power method comes handy. Beginning with \\(\mathbf{x}_0\\) (a random non zero vector), \\(\mathbf{x}_n = M^n\mathbf{x}_0\\) converges to a unique stationary eigenvector when $n$ tends to \\(\infty\\) for a column stochastic matrix \\(M\\). For the power method to converge, the dimension of the eigenspace for the largest eigenvalue must be 1. This condition is satisfied when the link matrix is primitive. Although we do not have to solve the eigenvalue problem, we still got to do \\(\mathcal{O}(N^2)\\) multiplications in every iteration. But, Equation \ref{eq2} can be simplified to \\(M\mathbf{x} = (1-m)A\mathbf{x} + m\mathbf{s}\\), where \\(\mathbf{s} = S\mathbf{x}\\), is a vector with all entries \\(1/N\\) when \\(\mathbf{x}\\) is positive and \\(||\mathbf{x}||\_1 = 1\\). Since \\(A\\) is highly sparse, this computation is now [efficient](#bryan200625).
 
+## Conclusion
+Google has been constantly innovating and improving its Search Engine technology. Projects like Knowledge Graph, Google Instant, Query understanding etc. are some recent technologies added to the GSE. Apart from PageRank, there are also other equally efficient algorithms that use link analysis to arrive at page ranking. The most prominent being the HITS algorithm developed by [Jon Kleinberg](#hits) that is used in the www.Ask.com Search Engine. Linear Algebra plays an important role in most of the link analysis algorithms. It would be an interesting exercise in Linear Algebra and Data Mining to program a Search Engine for a relational database.
+
 ## References
 <a name="austin2006google">Austin, D., 2006. How Google finds your needle in the web's haystack, American Mathematical Society Feature Column.
 
