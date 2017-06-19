@@ -1,10 +1,3 @@
-<head>
-...
-    <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-...
-</head>
 ## Introduction
 
 The world wide web (web) is a humongous library with nearly 60 trillion pages (we refer to a web-page as page). It is constantly growing with pages being added at an ever increasing rate. There is no apparent catalog that tracks these pages. It would be nearly impossible to search the web without a librarian's help. Web Search Engines (WSE) are the librarians of the web. Based on a search query, they precisely direct us to the material of interest. The most popular WSE are Google, Baidu, Yahoo and Bing.
