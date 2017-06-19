@@ -19,6 +19,13 @@ When a set of words is entered as a search query, algorithms try to make sense o
 ### Which Page is Important
 
 The PageRank algorithm, as the name indicates, orders pages based on their importance. It was developed by the founders of Google, [Sergey Brin and Lawrence Page](#page1999pagerank). The PageRank algorithm judges the importance of a page by the number of other important pages that refer (link) to it. Let us assume a web of interest that contains \\(N\\) pages \\(\{p_1,\ldots,p_k,\ldots,p_N\}\\) as in Figure. \ref{graph1}. We use the same example from [Bryan and Leslie](#bryan200625) for ease of understanding. We will use \\(x_k \geq 0\\) to denote the importance of a page \\(p_k\\), and \\(x_i > x_j\\) implies that \\(p_i\\) is more important than \\(p_j\\). We represent our web as a directed graph with nodes as pages and edges as hyperlinks between them. The simplest way to assess the importance of a page is to set \\(x_k\\) as the number of backlinks (hyperlinks pointing to the page) to page \\(p_k\\). In our web example we get \\(x_1=2, x_2=1, x_3=3, x_4=2\\). This approach treats all backlinks with equal importance. A link from an important page say, www.cnn.com ought to be treated with more importance than a link from a lesser important page, like your home page. To incorporate this idea let us assume the importance \\(x_k\\) to be the weighted sum of the importances of pages linking to it. More specifically, if page \\(p_j\\) has \\(n_j\\) outgoing links to other pages, it gives importance \\(x_j/n_j\\) to each of those links. Therefore, the importance of page \\(p_k\\) with \\(L_k\subset\{p_1,\ldots,p_N\}\\) pages linking to it is given by,
+<br />
+<br />
+<img align="middle" width="500" src="{{ site.url }}/images/GoogleLA_graph1.png" alt="...">
+
+A web with four pages and links between them.
+<br />
+<br />
 \\[
 x_k = \sum_{p_j\in L_k}x_j/n_j
 \\]
@@ -36,6 +43,11 @@ We refer to \\(A\\) as the **link matrix**. The above equation is a standard eig
 
 ### Non-Unique PageRank and Dangling Nodes
 Let \\(V_1(A)\\) be the eigenspace for \\(\lambda=1\\). The number of distinct eigenvectors for \\(\lambda=1\\) or dim(\\(V_1(A)\\)) is equal to the number of disconnected components in the graph. A strongly connected graph (can visit any node from any other node in a finite number of steps) has a unique eigenvector for \\(\lambda=1\\). Consider a different web graph as depicted in Figure. \ref{graph2}. The link matrix yields two distinct eigenvectors for \\(\lambda=1\\). It is not clear which of these eigenvectors(or their linear combination) is the best page rank. The other difficulty comes with dangling nodes - pages that do not link to any other pages. These pages have a column of all zeros in the link matrix which is now termed **column-substochastic** (column sum \\(\leq\\) 1). The eigenvalues of a column-substochastic matrix have \\(\lambda\leq 1\\) and 1 need not be an eigenvalue. The eigenvector for the largest eigenvalue also need not be strictly positive.
+<br />
+<br />
+{% include image.html url="{{ site.url }}/images/GoogleLA_graph2.png" description="A web with disconnected components." %}
+<br />
+<br />
 
 Brin and Page came up with a simple solution for the non-unique PageRank problem which we now outline. Let \\(A\\) be a link matrix for a web with no dangling nodes. We define a new column-stochastic matrix given by,
 \\[
