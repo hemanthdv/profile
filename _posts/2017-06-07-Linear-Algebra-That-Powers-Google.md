@@ -18,7 +18,7 @@ When a set of words is entered as a search query, algorithms try to make sense o
 
 ### Which Page is Important
 
-The PageRank algorithm, as the name indicates, orders pages based on their importance. It was developed by the founders of Google, [Sergey Brin and Lawrence Page](#page1999pagerank). The PageRank algorithm judges the importance of a page by the number of other important pages that refer (link) to it. Let us assume a web of interest that contains $N$ pages \\(\{p_1,\ldots,p_k,\ldots,p_N\}\\) as in Figure. \ref{graph1}. We use the same example from [Bryan and Leslie](#bryan200625) for ease of understanding. We will use $x_k \geq 0$ to denote the importance of a page \\(p_k\\), and \\(x_i > x_j\\) implies that \\(p_i\\) is more important than \\(p_j\\). We represent our web as a directed graph with nodes as pages and edges as hyperlinks between them. The simplest way to assess the importance of a page is to set \\(x_k\\) as the number of backlinks (hyperlinks pointing to the page) to page \\(p_k\\). In our web example we get \\(x_1=2, x_2=1, x_3=3, x_4=2\\). This approach treats all backlinks with equal importance. A link from an important page say, www.cnn.com ought to be treated with more importance than a link from a lesser important page, like your home page. To incorporate this idea let us assume the importance \\(x_k\\) to be the weighted sum of the importances of pages linking to it. More specifically, if page \\(p_j\\) has \\(n_j\\) outgoing links to other pages, it gives importance \\(x_j/n_j\\) to each of those links. Therefore, the importance of page \\(p_k\\) with \\(L_k\subset\{p_1,\ldots,p_N\}\\) pages linking to it is given by,
+The PageRank algorithm, as the name indicates, orders pages based on their importance. It was developed by the founders of Google, [Sergey Brin and Lawrence Page](#page1999pagerank). The PageRank algorithm judges the importance of a page by the number of other important pages that refer (link) to it. Let us assume a web of interest that contains \\(N\\) pages \\(\{p_1,\ldots,p_k,\ldots,p_N\}\\) as in Figure. \ref{graph1}. We use the same example from [Bryan and Leslie](#bryan200625) for ease of understanding. We will use \\(x_k \geq 0\\) to denote the importance of a page \\(p_k\\), and \\(x_i > x_j\\) implies that \\(p_i\\) is more important than \\(p_j\\). We represent our web as a directed graph with nodes as pages and edges as hyperlinks between them. The simplest way to assess the importance of a page is to set \\(x_k\\) as the number of backlinks (hyperlinks pointing to the page) to page \\(p_k\\). In our web example we get \\(x_1=2, x_2=1, x_3=3, x_4=2\\). This approach treats all backlinks with equal importance. A link from an important page say, www.cnn.com ought to be treated with more importance than a link from a lesser important page, like your home page. To incorporate this idea let us assume the importance \\(x_k\\) to be the weighted sum of the importances of pages linking to it. More specifically, if page \\(p_j\\) has \\(n_j\\) outgoing links to other pages, it gives importance \\(x_j/n_j\\) to each of those links. Therefore, the importance of page \\(p_k\\) with \\(L_k\subset\{p_1,\ldots,p_N\}\\) pages linking to it is given by,
 \\[
 x_k = \sum_{p_j\in L_k}x_j/n_j
 \\]
@@ -26,9 +26,9 @@ In this setup, we will not count self-referencing links. In our web example, \\(
 \\[
 A =
 \begin{bmatrix}
-0 & 0 & 1 & \frac{1}{2}\\\\
-\frac{1}{3} & 0 & 0 & 0\\\\
-\frac{1}{3} & \frac{1}{2} & 0 & \frac{1}{2}\\\\
+0 & 0 & 1 & \frac{1}{2}\newline
+\frac{1}{3} & 0 & 0 & 0\newline
+\frac{1}{3} & \frac{1}{2} & 0 & \frac{1}{2}\newline
 \frac{1}{3} & \frac{1}{2} & 0 & 0
 \end{bmatrix}
 \\]
