@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Linear Algebra That Powers Google"
+description: "Brief Outline of the Page Rank Algorithm"
+comments: true
+---
 ## Introduction
 
 The world wide web (web) is a humongous library with nearly 60 trillion pages (we refer to a web-page as page). It is constantly growing with pages being added at an ever increasing rate. There is no apparent catalog that tracks these pages. It would be nearly impossible to search the web without a librarian's help. Web Search Engines (WSE) are the librarians of the web. Based on a search query, they precisely direct us to the material of interest. The most popular WSE are Google, Bing, Baidu and Yahoo.
