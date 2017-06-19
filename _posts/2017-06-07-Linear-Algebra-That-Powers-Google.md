@@ -26,13 +26,13 @@ In this setup, we will not count self-referencing links. In our web example, \\(
 \\[
 A =
 \begin{bmatrix}
-0 & 0 & 1 & \frac{1}{2}\\
-\frac{1}{3} & 0 & 0 & 0\\
-\frac{1}{3} & \frac{1}{2} & 0 & \frac{1}{2}\\
+0 & 0 & 1 & \frac{1}{2}\\\\
+\frac{1}{3} & 0 & 0 & 0\\\\
+\frac{1}{3} & \frac{1}{2} & 0 & \frac{1}{2}\\\\
 \frac{1}{3} & \frac{1}{2} & 0 & 0
 \end{bmatrix}
 \\]
-We refer to \\(A\\) as the *link matrix*. The above equation is a standard eigenvalue problem \\(A\mathbf{x} = \lambda\mathbf{x}\\) where we need to estimate the eigenvector \\(\mathbf{x}\neq 0\\) for eigenvalue \\(\lambda= 1\\). Matrix \\(A\\) is called *column-stochastic* because each of its columns sum to 1. Since \\(A^\top\mathbf{1} = \mathbf{1}\\), where \\(\mathbf{1}\) is a vector of all 1's, \\(A\\) has an eigenvalue, \\(\lambda=1\\) (\\(A\\) has the same eigenvalues as \\(A^\top\\) - a matrix property). The corresponding eigenvector \\(\mathbf{x}\\), for \\(A\mathbf{x} = \mathbf{x}\\) is the vector of page ranks. The \\(l_1\\)-normalized PageRank eigenvector for our example turns out to be, \\(\mathbf{x} = [0.38, 0.12, 0.29,0.19]^\top\\). We apply \\(l_1\\)-normalization so that \\(\sum_k x_k=1\\). We now need to ensure that \\(\mathbf{x}\\) is unique. This is where we run into problems for some cases.
+We refer to \\(A\\) as the *link matrix*. The above equation is a standard eigenvalue problem \\(A\mathbf{x} = \lambda\mathbf{x}\\) where we need to estimate the eigenvector \\(\mathbf{x}\neq 0\\) for eigenvalue \\(\lambda= 1\\). Matrix \\(A\\) is called *column-stochastic* because each of its columns sum to 1. Since \\(A^\top\mathbf{1} = \mathbf{1}\\), where \\(\mathbf{1}\\) is a vector of all 1's, \\(A\\) has an eigenvalue, \\(\lambda=1\\) (\\(A\\) has the same eigenvalues as \\(A^\top\\) - a matrix property). The corresponding eigenvector \\(\mathbf{x}\\), for \\(A\mathbf{x} = \mathbf{x}\\) is the vector of page ranks. The \\(l_1\\)-normalized PageRank eigenvector for our example turns out to be, \\(\mathbf{x} = [0.38, 0.12, 0.29,0.19]^\top\\). We apply \\(l_1\\)-normalization so that \\(\sum_k x_k=1\\). We now need to ensure that \\(\mathbf{x}\\) is unique. This is where we run into problems for some cases.
 
 ## References
 <a name="austin2006google">Austin, D., 2006. How Google finds your needle in the web's haystack, American Mathematical Society Feature Column.
