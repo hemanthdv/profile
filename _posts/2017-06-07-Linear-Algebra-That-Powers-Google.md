@@ -45,7 +45,9 @@ We refer to \\(A\\) as the **link matrix**. The above equation is a standard eig
 Let \\(V_1(A)\\) be the eigenspace for \\(\lambda=1\\). The number of distinct eigenvectors for \\(\lambda=1\\) or dim(\\(V_1(A)\\)) is equal to the number of disconnected components in the graph. A strongly connected graph (can visit any node from any other node in a finite number of steps) has a unique eigenvector for \\(\lambda=1\\). Consider a different web graph as depicted in Figure. \ref{graph2}. The link matrix yields two distinct eigenvectors for \\(\lambda=1\\). It is not clear which of these eigenvectors(or their linear combination) is the best page rank. The other difficulty comes with dangling nodes - pages that do not link to any other pages. These pages have a column of all zeros in the link matrix which is now termed **column-substochastic** (column sum \\(\leq\\) 1). The eigenvalues of a column-substochastic matrix have \\(\lambda\leq 1\\) and 1 need not be an eigenvalue. The eigenvector for the largest eigenvalue also need not be strictly positive.
 <br />
 <br />
-{% include image.html url="{{ site.url }}/images/GoogleLA_graph2.png" description="A web with disconnected components." %}
+<img align="middle" width="500" src="{{ site.url }}/images/GoogleLA_graph2.png" alt="...">
+
+A web with disconnected components.
 <br />
 <br />
 
