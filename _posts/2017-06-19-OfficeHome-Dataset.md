@@ -2,8 +2,6 @@
 layout: post
 title: Office-Home Dataset
 description: "Object Recognition dataset for domain adaptation experiments"
-redirect_from:
-    - https://hemanthdv.github.io/officehome-dataset/
 comments: false
 ---
 
