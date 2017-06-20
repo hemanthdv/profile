@@ -5,8 +5,6 @@ description: "Object Recognition dataset for domain adaptation experiments"
 comments: false
 ---
 
-
-# Office-Home Dataset
 The Office-Home dataset has been created to evaluate domain adaptation algorithms for object recognition using deep learning. It consists of images from 4 different domains: Artistic images, Clip Art, Product images and Real-World images. For each domain, the dataset contains images of 65 object categories found typically in Office and Home settings.
 
 ## Data Collection
