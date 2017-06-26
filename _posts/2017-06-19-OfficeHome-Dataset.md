@@ -38,6 +38,10 @@ Paper Clip, Pen, Pencil, Postit Notes, Printer, Push Pin, Radio, Refrigerator, r
 Scissors, Screwdriver, Shelf, Sink, Sneakers, Soda, Speaker, Spoon, Table, Telephone,
 Toothbrush, Toys, Trash Can, TV, Webcam
 ```
+## Download
+*(link will be provided ina few days)*
+
+## Citation
 
 ## Fair Use Notice
 This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a __fair use__ of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit to those who have expressed a prior interest in receiving the included information for non-commercial research and educational purposes. For more information on fair use please [click here](https://www.law.cornell.edu/uscode/text/17/107 "Fair Use Notice"). If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner.
