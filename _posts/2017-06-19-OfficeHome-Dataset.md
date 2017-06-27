@@ -39,10 +39,24 @@ Scissors, Screwdriver, Shelf, Sink, Sneakers, Soda, Speaker, Spoon, Table, Telep
 Toothbrush, Toys, Trash Can, TV, Webcam
 ```
 ## Download
-*(link will be provided ina few days)*
+*(link will be provided in a few days)*
 
 ## Citation
-
+Please use the below citation for your reference:
+	<p>
+    <a href="https://arxiv.org/pdf/1706.07522" target="_blank">[PDF]</a> 
+	<a href="https://github.com/hemanthdv/da-hash" target="_blank">[CODE]</a> 
+    </p>
+    <div id="bib_venkateswara2017Deep" class="bibtex">
+    <pre>@inproceedings{venkateswara2017Deep,
+			title={Deep Hashing Network for Unsupervised Domain Adaptation},
+			author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},
+			booktitle={({IEEE}) Conference on Computer Vision and Pattern Recognition ({CVPR})},
+			year={2017}
+	}
+	</pre>
+    </div>
+	
 ## Fair Use Notice
-This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a __fair use__ of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit to those who have expressed a prior interest in receiving the included information for non-commercial research and educational purposes. For more information on fair use please [click here](https://www.law.cornell.edu/uscode/text/17/107 "Fair Use Notice"). If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner.
+This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a __fair use__ of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit for non-commercial research and educational purposes. For more information on fair use please [click here](https://www.law.cornell.edu/uscode/text/17/107 "Fair Use Notice"). If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner.
 *(adapted from [Christopher Thomas](http://people.cs.pitt.edu/~chris/photographer/))*
