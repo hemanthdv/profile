@@ -5,6 +5,8 @@ description: "Hemanth Venkateswara's website"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: Monument_Valley_at_Night_(4078195042).jpg
+  credit: Wikimedia Commons
+  creditlink: https://commons.wikimedia.org/wiki/File:Monument_Valley_at_Night_(4078195042).jpg
 ---
 
 This website is under construction.
