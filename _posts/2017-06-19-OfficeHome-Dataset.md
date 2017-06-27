@@ -39,10 +39,11 @@ Scissors, Screwdriver, Shelf, Sink, Sneakers, Soda, Speaker, Spoon, Table, Telep
 Toothbrush, Toys, Trash Can, TV, Webcam
 ```
 ## Download
-*(link will be provided in a few days)*
+The dataset was curated by [Jose Eusebio](https://www.linkedin.com/in/jmeusebio). 
+Please use the below citation to refer to the dataset. 
+*will be updated shortly*
 
 ## Citation
-Please use the below citation for your reference:
 <p>
 <a href="https://arxiv.org/pdf/1706.07522" target="_blank">[PDF]</a> 
 <a href="https://github.com/hemanthdv/da-hash" target="_blank">[CODE]</a> 

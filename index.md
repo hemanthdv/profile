@@ -6,7 +6,7 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: Monument_Valley_at_Night_(4078195042).jpg
   credit: Wikimedia Commons
-  creditlink: https://commons.wikimedia.org/wiki/File:Monument_Valley_at_Night_(4078195042).jpg
+  creditlink: https://upload.wikimedia.org/wikipedia/commons/d/db/Monument_Valley_at_Night_%284078195042%29.jpg
 ---
 
 This website is under construction.
