@@ -41,7 +41,7 @@ Toothbrush, Toys, Trash Can, TV, Webcam
 ## Download
 The dataset was curated by [Jose Eusebio](https://www.linkedin.com/in/jmeusebio). 
 Please use the below citation to refer to the dataset. 
-*will be updated shortly*
+<p><a href="https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view" target="_blank">[DATASET DOWNLOAD]</a></p>
 
 ## Citation
 <p>
