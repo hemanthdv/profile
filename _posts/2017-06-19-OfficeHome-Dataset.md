@@ -48,11 +48,12 @@ Please use the below citation for your reference:
 <a href="https://github.com/hemanthdv/da-hash" target="_blank">[CODE]</a> 
 </p>
 <div id="bib_venkateswara2017Deep" class="bibtex">
-<pre>@inproceedings{venkateswara2017Deep,
-title={Deep Hashing Network for Unsupervised Domain Adaptation},
-author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},
-booktitle={({IEEE}) Conference on Computer Vision and Pattern Recognition ({CVPR})},
-year={2017}
+<pre>
+@inproceedings{venkateswara2017Deep,
+	title={Deep Hashing Network for Unsupervised Domain Adaptation},
+	author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},
+	booktitle={({IEEE}) Conference on Computer Vision and Pattern Recognition ({CVPR})},
+	year={2017}
 }
 </pre>
 </div>
