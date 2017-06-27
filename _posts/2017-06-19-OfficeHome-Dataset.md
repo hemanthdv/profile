@@ -41,13 +41,9 @@ Toothbrush, Toys, Trash Can, TV, Webcam
 ## Download
 The dataset was curated by [Jose Eusebio](https://www.linkedin.com/in/jmeusebio). 
 Please use the below citation to refer to the dataset. 
-<p><a href="https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view" target="_blank">[DATASET DOWNLOAD]</a></p>
+<p><a href="https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view" target="_blank">[DATASET DOWNLOAD]</a> <a href="https://arxiv.org/pdf/1706.07522" target="_blank">[PDF]</a>  <a href="https://github.com/hemanthdv/da-hash" target="_blank">[CODE]</a></p>
 
-## Citation
-<p>
-<a href="https://arxiv.org/pdf/1706.07522" target="_blank">[PDF]</a> 
-<a href="https://github.com/hemanthdv/da-hash" target="_blank">[CODE]</a> 
-</p>
+## Bibtex
 <div id="bib_venkateswara2017Deep" class="bibtex">
 <pre>
 @inproceedings{venkateswara2017Deep,
