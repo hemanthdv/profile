@@ -1,0 +1,409 @@
+@INPROCEEDINGS{chakraborty2011active,
+  author={S. {Chakraborty} and H. {Venkateswara} and V. {Balasubramanian} and S. {Panchanathan}},
+  booktitle={2011 10th International Conference on Machine Learning and Applications and Workshops}, 
+  title={Active Batch Selection for Fuzzy Classification in Facial Expression Recognition}, 
+  year={2011},
+  volume={1},
+  pages={241-246},
+  doi={10.1109/ICMLA.2011.22}
+}
+
+@inproceedings{venkateswara2013multiresolution,
+  title={Multiresolution Match Kernels for gesture video classification},
+  author={Venkateswara, Hemanth and Balasubramanian, Vineeth N and Lade, Prasanth and Panchanathan, Sethuraman},
+  booktitle={2013 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)},
+  pages={1--4},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{lade2013detection,
+  title={Detection of changes in human affect dimensions using an Adaptive Temporal Topic model},
+  author={Lade, Prasanth and Balasubramanian, Vineeth N and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={2013 IEEE International Conference on Multimedia and Expo (ICME)},
+  pages={1--6},
+  year={2013},
+  organization={IEEE}
+}
+
+@misc{venkateswara2014linear,
+  title={Linear Algebra that powers Google},
+  author={Venkateswara, Hemanth and Lade, Prasanth and Panchanathan, Sethuraman},
+  journal={DMACS Newsletter, Sri Sathya Sai University},
+  pages={7},
+  pages={7},
+  year={2014}
+}
+
+@inproceedings{venkateswara2015coupled,
+  title={Coupled support vector machines for supervised domain adaptation},
+  author={Venkateswara, Hemanth and Lade, Prasanth and Ye, Jieping and Panchanathan, Sethuraman},
+  booktitle={Proceedings of the 23rd ACM international conference on Multimedia},
+  pages={1295--1298},
+  year={2015}
+}
+
+@inproceedings{venkateswara2015efficient,
+  title={Efficient approximate solutions to mutual information based global feature selection},
+  author={Venkateswara, Hemanth and Lade, Prasanth and Lin, Binbin and Ye, Jieping and Panchanathan, Sethuraman},
+  booktitle={2015 IEEE International Conference on Data Mining},
+  pages={1009--1014},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{lade2015regularized,
+  title={Regularized supervised topic model for continuous emotion analysis},
+  author={Lade, Prasanth and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA)},
+  pages={739--744},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{venkateswara2016nonlinear,
+  title={Nonlinear embedding transform for unsupervised domain adaptation},
+  author={Venkateswara, Hemanth and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={European Conference on Computer Vision ({ECCV}), TaskCV Workshop},
+  pages={451--457},
+  year={2016},
+  organization={Springer}
+}
+
+@article{venkatesan2017AStrategy,
+  author    = {Ragav Venkatesan and
+               Hemanth Venkateswara and
+               Sethuraman Panchanathan and
+               Baoxin Li},
+  title     = {A Strategy for an Uncompromising Incremental Learner},
+  journal   = {CoRR},
+  volume    = {abs/1705.00744},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.00744}
+}
+
+@phdthesis{venkateswara2017domain,
+  title={Domain Adaptive Computational Models for Computer Vision},
+  author={Venkateswara, Hemanth Kumar Demakethepalli},
+  year={2017},
+  school={Arizona State University}
+}
+
+@incollection{Balasubramanian2014COnformal,
+author ={Vineeth N. Balasubramanian and Prasanth Lade and Hemanth Venkateswara and Evgueni Smirnov and Sethuraman Panchanathan},
+title = {Chapter 9 - Other Adaptations},
+editor ={Vineeth N. Balasubramanian and Shen-Shyang Ho and Vladimir Vovk},
+booktitle ={Conformal Prediction for Reliable Machine Learning},
+publisher ={Morgan Kaufmann},
+address ={Boston},
+pages ={167 - 185},
+year ={2014},
+isbn ={978-0-12-398537-8}
+}
+
+@paper{venkateswara2017model,
+	author = {Hemanth Venkateswara and Shayok Chakraborty and Troy McDaniel and Sethuraman Panchanathan},
+	title = {Model Selection with Nonlinear Embedding for Unsupervised Domain Adaptation},
+	conference = {AAAI Workshops},
+	year = {2017},
+	url = {https://www.aaai.org/ocs/index.php/WS/AAAIW17/paper/view/15081}
+}
+
+@inproceedings{venkateswara2017deep,
+  title={Deep hashing network for unsupervised domain adaptation},
+  author={Venkateswara, Hemanth and Eusebio, Jose and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={5018--5027},
+  year={2017}
+}
+
+@article{venkateswara2017deepSPM,
+  title={Deep-learning systems for domain adaptation in computer vision: Learning transferable feature representations},
+  author={Venkateswara, Hemanth and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  journal={IEEE Signal Processing Magazine},
+  volume={34},
+  number={6},
+  pages={117--129},
+  year={2017},
+  publisher={IEEE}
+}
+
+@inproceedings{ranganathan2017deep,
+  title={Deep active learning for image classification},
+  author={Ranganathan, Hiranmayi and Venkateswara, Hemanth and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={2017 IEEE International Conference on Image Processing (ICIP)},
+  pages={3934--3938},
+  year={2017},
+  organization={IEEE}
+}
+
+@inbook{panchanathan2018computer,
+title ={Computer Vision for Augmentative and Alternative Communication},
+author ={Sethuraman Panchanathan and Meredith Moore and Hemanth Venkateswara and Shayok Chakraborty and Troy McDaniel},
+editor ={Marco Leo and Giovanni Maria Farinella},
+year ={2018},
+day ={1},
+pages ={211--248},
+booktitle ={Computer Vision For Assistive Healthcare},
+publisher ={Elsevier Inc.}
+}
+
+@inproceedings{moore2018whistle,
+  title={Whistle-blowing ASRs: Evaluating the Need for More Inclusive Speech Recognition Systems},
+  author={Moore, Meredith and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH},
+  volume={2018},
+  pages={466--470},
+  year={2018}
+}
+
+@inproceedings{ranganathan2018multi,
+  title={Multi-label deep active learning with label correlation},
+  author={Ranganathan, Hiranmayi and Venkateswara, Hemanth and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
+  pages={3418--3422},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{venkateswara2018person,
+  title={Person-Centered Technologies for Individuals with Disabilities: Empowerment Through Assistive and Rehabilitative Solutions},
+  author={Venkateswara, Hemanth and McDaniel, Troy and Tadayon, Ramin and Panchanathan, Sethuraman},
+  journal={Technology \& Innovation},
+  volume={20},
+  number={1-2},
+  pages={117--132},
+  year={2018},
+  publisher={National Academy of Inventors}
+}
+
+@inproceedings{heath2018detecting,
+  title={Detecting attention in pivotal response treatment video probes},
+  author={Heath, Corey DC and Venkateswara, Hemanth and McDaniel, Troy and Panchanathan, Sethuraman},
+  booktitle={Smart Multimedia},
+  publisher={Springer International Publishing},
+  pages={248--259},
+  year={2018}
+}
+
+@InProceedings{fakhri2018deep,
+author={Fakhri, Bijan
+and Keech, Aaron
+and Schlosser, Joel
+and Brooks, Ethan
+and Venkateswara, Hemanth
+and Panchanathan, Sethuraman
+and Kira, Zsolt},
+title={Deep Reinforcement Learning Methods for Navigational Aids},
+booktitle={Smart Multimedia},
+year={2018},
+publisher={Springer International Publishing},
+pages={66--75},
+isbn={978-3-030-04375-9}
+}
+
+@inproceedings{eusebio2018semi,
+  title={Semi-supervised Adversarial Image-to-Image Translation},
+  author={Eusebio, Jose and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={Smart Multimedia},
+  publisher={Springer International Publishing},
+  pages={334--344},
+  year={2018}
+}
+
+@inproceedings{panchanathan2018person,
+  title={Person-Centric Multimedia: How Research Inspirations from Designing Solutions for Individual Users Benefits the Broader Population},
+  author={Panchanathan, Sethuraman and Tadayon, Ramin and Venkateswara, Hemanth and McDaniel, Troy},
+  booktitle={Smart Multimedia},
+  publisher={Springer International Publishing},
+  pages={51--65},
+  year={2018}
+}
+
+@inproceedings{panchanathan2019smart,
+  title={Smart stadia as testbeds for smart cities: Enriching fan experiences and improving accessibility},
+  author={Panchanathan, Sethuraman and McDaniel, Troy and Tadayon, Ramin and Rukkila, Adric and Venkateswara, Hemanth},
+  booktitle={2019 International Conference on Computing, Networking and Communications (ICNC)},
+  pages={542--546},
+  year={2019},
+  organization={IEEE}
+}
+
+@InProceedings{heath2019are,
+author = {D C Heath, Corey and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+title = {Are You Paying Attention? Classifying Attention in Pivotal Response Treatment Videos},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2019}
+}
+
+@InProceedings{papreja2019representation,
+author={Papreja, Piyush
+and Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+title={Representation, Exploration and Recommendation of Playlists},
+booktitle={Machine Learning and Knowledge Discovery in Databases},
+year={2020},
+publisher={Springer International Publishing},
+pages={543--550},
+isbn={978-3-030-43887-6}
+}
+
+@InProceedings{heath2019parent,
+author={Heath, Corey D. C.
+and McDaniel, Troy
+and Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+title={Parent and Child Voice Activity Detection in Pivotal Response Treatment Video Probes},
+booktitle={Proceedings of the International COnference on Human-Computer Interaction (HCII)},
+year={2019},
+publisher={Springer International Publishing},
+pages={270--286},
+isbn={978-3-030-21817-1}
+}
+
+@inproceedings{moore2019say,
+  author={Meredith Moore and Michael Saxon and Hemanth Venkateswara and Visar Berisha and Sethuraman Panchanathan},
+  title={{Say What? A Dataset for Exploring the Error Patterns That Two ASR Engines Make}},
+  year=2019,
+  booktitle={Proc. of Interspeech 2019},
+  pages={2528--2532},
+  doi={10.21437/Interspeech.2019-3096},
+  url={http://dx.doi.org/10.21437/Interspeech.2019-3096}
+}
+
+@InProceedings{fakhri2019foveated,
+author={Fakhri, Bijan
+and McDaniel, Troy
+and Amor, Heni Ben
+and Venkateswara, Hemanth
+and Chowdhury, Abhik
+and Panchanathan, Sethuraman},
+title={Foveated Haptic Gaze},
+booktitle={Smart Multimedia},
+publisher={Springer International Publishing},
+year={2020},
+pages={132--144}
+}
+
+@article{heath2020Improving,
+title ={Improving communication skills of children with autism through support of applied behavioral analysis treatments using multimedia computing: a survey},
+author ={Heath, {Corey D.C.} and Troy McDaniel and Hemanth Venkateswara and Sethuraman Panchanathan},
+year ={2020},
+journal ={Universal Access in the Information Society},
+issn ={1615-5289},
+publisher ={Springer Verlag}
+}
+
+@data{heath2019usingmultimodal,
+author={Heath, Corey D. C.
+and Venkateswara, Hemanth
+and McDaniel, Troy
+and Panchanathan, Sethuraman},
+title={Using Multimodal Data for Automated Fidelity Evaluation in Pivotal Response Treatment Videos},
+publisher={IEEE Signal Processing Society SigPort},
+year={2019}
+}
+
+@Inbook{ranganathan2020deep,
+  title={Deep Active Learning for Image Regression},
+  author={Ranganathan, Hiranmayi and Venkateswara, Hemanth and Chakraborty, Shayok and Panchanathan, Sethuraman},
+  booktitle={Deep Learning Applications},
+  editor={Arif-Wani, M. and Kantardzic, Mehmed and Sayed-Mouchaweh, Moamar},
+  pages={113--135},
+  year={2020},
+  publisher={Springer}
+}
+
+@inproceedings{papreja2019representation,
+  title={Representation, exploration and recommendation of playlists},
+  author={Papreja, Piyush and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases, Workshops},
+  pages={543--550},
+  year={2019},
+  organization={Springer, Cham}
+}
+
+@InProceedings{vyas2020leveraging,
+author={Vyas, Maunil R.
+and Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+editor={Vedaldi, Andrea
+and Bischof, Horst
+and Brox, Thomas
+and Frahm, Jan-Michael},
+title={Leveraging Seen and Unseen Semantic Relationships for Generative Zero-Shot Learning},
+booktitle={Computer Vision -- ECCV 2020},
+year={2020},
+publisher={Springer International Publishing},
+pages={70--86},
+isbn={978-3-030-58577-8}
+}
+
+@InProceedings{dudley2019domain,
+author={Dudley, Andrew
+and Nagabandi, Bhadrinath
+and Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+title={Domain Adaptive Fusion for Adaptive Image Classification},
+booktitle={Smart Multimedia},
+publisher={Springer International Publishing},
+year={2020},
+pages={357--371}
+}
+
+@inproceedings{nagabandi2019certain,
+  title={Certain and Consistent Domain Adaptation},
+  author={Nagabandi, Bhadrinath and Dudley, Andrew and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={Smart Multimedia},
+  publisher={Springer International Publishing},
+  pages={341--356},
+  year={2019}
+}
+
+@inproceedings{heath2019using,
+  title={Using participatory design to create a user interface for analyzing pivotal response treatment video probes},
+  author={Heath, Corey DC and Heath, Tracey and McDaniel, Troy and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  booktitle={Smart Multimedia},
+  publisher={Springer International Publishing},
+  pages={183--198},
+  year={2019}
+}
+
+@Inbook{Venkateswara2020Intro,
+author={Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+editor={Venkateswara, Hemanth
+and Panchanathan, Sethuraman},
+title={Introduction to Domain Adaptation},
+bookTitle={Domain Adaptation in Computer Vision with Deep Learning},
+year={2020},
+publisher={Springer International Publishing},
+pages={3--21},
+isbn={978-3-030-45529-3}
+}
+
+@Inbook{ramakrishnan2020Deep,
+author={Ramakrishnan, Raghavendran and Nagabandi, Bhadrinath and Eusebio, Jose and Chakraborty, Shayok and Venkateswara, Hemanth and Panchanathan, Sethuraman},
+editor={Venkateswara, Hemanth and Panchanathan, Sethuraman},
+title={Deep Hashing Network for Unsupervised Domain Adaptation},
+bookTitle={Domain Adaptation in Computer Vision with Deep Learning},
+year={2020},
+publisher={Springer International Publishing},
+pages={57--74},
+isbn={978-3-030-45529-3}
+}
+
+@book{venkateswara2020domain,
+  title={Domain Adaptation in Computer Vision with Deep Learning},
+  author={Venkateswara, Hemanth and Panchanathan, Sethuraman},
+  year={2020},
+  publisher={Springer}
+}
+
+@inproceedings{choudhuri2021partial,
+  title={Partial Domain Adaptation Using Selective Representation Learning For Class-Weight Computation},
+  author={Choudhuri, Sandipan and Paul, Riti and Sen, Arunabha and Li, Baoxin and Venkateswara, Hemanth},
+  booktitle={IEEE Asilomar Conference on Signals, Systems and COmputers},
+  year={2021}
+}
