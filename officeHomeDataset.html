@@ -7,15 +7,8 @@
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Hemanth D Venkateswara</title>
-<!-- MathJax -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async>
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-	  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<!-- End MathJax -->
+</head>
+<body>
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -28,7 +21,7 @@ try {
 <div id="fwtitle">
 <div id="toptitle">
 <h1>Hemanth D Venkateswara</h1>
-<div id="subtitle">
+<div id="subtitle">
 </div>
 </div>
 </div>
@@ -49,20 +42,20 @@ try {
 </td>
 <td id="layout-content">
 <h2>Office-Home Dataset</h2>
-<p>
-The Office-Home dataset has been created to evaluate domain adaptation algorithms for object recognition using deep learning. It consists of images from 4 different domains: Artistic images, Clip Art, Product images and Real-World images. For each domain, the dataset contains images of 65 object categories found typically in Office and Home settings. 
-
+<p>
+The Office-Home dataset has been created to evaluate domain adaptation algorithms for object recognition using deep learning. It consists of images from 4 different domains: Artistic images, Clip Art, Product images and Real-World images. For each domain, the dataset contains images of 65 object categories found typically in Office and Home settings. 
+
 </p>
 <table class="imgtable"><tr><td>
 <img src="/images/DataCollage.jpg" alt="Office-Home Dataset Image Snapshot" width="800px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p><i>Figure 1: Sample images from the <b>Office-Home</b> dataset. The dataset consists of images of everyday objects organized into 4 domains; <b>Art</b>: paintings, sketches and</i>or artistic depictions, <b>Clipart</b>: clipart images, <b>Product</b>: images without background and <b>Real-World</b>: regular images captured with a camera. The figure displays examples from 16 of the 65 categories./
-
+<p><i>Figure 1: Sample images from the <b>Office-Home</b> dataset. The dataset consists of images of everyday objects organized into 4 domains; <b>Art</b>: paintings, sketches and</i>or artistic depictions, <b>Clipart</b>: clipart images, <b>Product</b>: images without background and <b>Real-World</b>: regular images captured with a camera. The figure displays examples from 16 of the 65 categories./
+
 </p>
 <h2>Data Collection </h2>
-<p>
-The images in the dataset were collected using a python web-crawler that crawled through several search engines and online image directories. This initial run searched for around 120 different objects and produced over 100,000 images across the different categories and domains. These images were then filtered to ensure that the desired object was in the picture. Categories were also filtered to make sure that each category had at least a certain number of images. The latest version of the dataset contains around 15,500 images from 65 different categories. 
-
+<p>
+The images in the dataset were collected using a python web-crawler that crawled through several search engines and online image directories. This initial run searched for around 120 different objects and produced over 100,000 images across the different categories and domains. These images were then filtered to ensure that the desired object was in the picture. Categories were also filtered to make sure that each category had at least a certain number of images. The latest version of the dataset contains around 15,500 images from 65 different categories. 
+
 </p>
 <table>
 <tr class="r1"><td class="c1"><b>Domain</b> </td><td class="c2"> <b>Min: #</b> </td><td class="c3"> <b>Min: #</b> </td><td class="c4"> <b>Min: #</b> </td><td class="c5"> <b>Acc.</b> </td></tr>
@@ -71,11 +64,11 @@ The images in the dataset were collected using a python web-crawler that crawled
 <tr class="r4"><td class="c1">Product  </td><td class="c2"> 38 </td><td class="c3"> 75  \(\times\) 63 pix.  </td><td class="c4"> 2560 \(\times\) 2560 pix. </td><td class="c5"> 66.41 \(\pm\) 1.18 </td></tr>
 <tr class="r5"><td class="c1">Product  </td><td class="c2"> 23 </td><td class="c3"> 88  \(\times\) 80 pix.  </td><td class="c4"> 6500 \(\times\) 4900 pix. </td><td class="c5"> 59.70 \(\pm\) 1.04 
 </td></tr></table>
-<p><i>Statistics for the Office-Home dataset. <b>Min: #</b> is the minimum number of images of each object for the specified domain. <b>Min: Size</b> and <b>Max: Size</b> are the minimum and maximum image sizes in the domain. <b>Acc:</b> is the classification accuracy using a linear SVM (<a href="https://www.csie.ntu.edu.tw/~cjlin/liblinear/" target=&ldquo;blank&rdquo;>LIBLINEAR</a>) classifier with 5-fold cross-validation using deep features extracted from the <a href="https://www.vlfeat.org/matconvnet/pretrained/" target=&ldquo;blank&rdquo;>VGG-F</a> deep network.</i> 
-
+<p><i>Statistics for the Office-Home dataset. <b>Min: #</b> is the minimum number of images of each object for the specified domain. <b>Min: Size</b> and <b>Max: Size</b> are the minimum and maximum image sizes in the domain. <b>Acc:</b> is the classification accuracy using a linear SVM (<a href="https://www.csie.ntu.edu.tw/~cjlin/liblinear/" target=&ldquo;blank&rdquo;>LIBLINEAR</a>) classifier with 5-fold cross-validation using deep features extracted from the <a href="https://www.vlfeat.org/matconvnet/pretrained/" target=&ldquo;blank&rdquo;>VGG-F</a> deep network.</i> 
+
 </p>
 <h2>Object Categories</h2>
-<p>The 65 object categories in the dataset are: 
+<p>The 65 object categories in the dataset are: 
 </p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
@@ -87,15 +80,15 @@ Paper Clip, Pen, Pencil, Postit Notes, Printer, Push Pin, Radio, Refrigerator, r
 Scissors, Screwdriver, Shelf, Sink, Sneakers, Soda, Speaker, Spoon, Table, Telephone,
 Toothbrush, Toys, Trash Can, TV, Webcam
 </pre></div></div>
-<p>
+<p>
 </p>
 <h2>Download</h2>
-<p>The dataset was curated by <a href="https://www.linkedin.com/in/jmeusebio" target=&ldquo;blank&rdquo;>Jose Eusebio</a>. <br /> 
-<tt>[<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="pubbib/venkateswara2017deep.bib" target=&ldquo;blank&rdquo;>Bibtex</a>] [<a href="https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?usp=sharing&amp;resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw" target=&ldquo;blank&rdquo;>Dataset Download</a>] [<a href="https://github.com/hemanthdv/da-hash" target=&ldquo;blank&rdquo;>CODE</a>]</tt>
-
+<p>The dataset was curated by <a href="https://www.linkedin.com/in/jmeusebio" target=&ldquo;blank&rdquo;>Jose Eusebio</a>. <br /> 
+<tt>[<a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="pubbib/venkateswara2017deep.bib" target=&ldquo;blank&rdquo;>Bibtex</a>] [<a href="https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?usp=sharing&amp;resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw" target=&ldquo;blank&rdquo;>Dataset Download</a>] [<a href="https://github.com/hemanthdv/da-hash" target=&ldquo;blank&rdquo;>CODE</a>]</tt>
+
 </p>
 <h2>Bibtex</h2>
-<p>To cite the dataset, use the following:
+<p>To cite the dataset, use the following:
 </p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
@@ -107,21 +100,17 @@ Toothbrush, Toys, Trash Can, TV, Webcam
   year={2017}
 }
 </pre></div></div>
-<p>
+<p>
 </p>
 <h2>Fair Use Notice</h2>
 <p>This dataset contains some copyrighted material whose use has not been specifically authorized by the copyright owners. In an effort to advance scientific research, we make this material available for academic research. We believe this constitutes a fair use of any such copyrighted material as provided for in section 107 of the US Copyright Law. In accordance with Title 17 U.S.C. Section 107, the material on this site is distributed without profit for non-commercial research and educational purposes. For more information on fair use please click here. If you wish to use copyrighted material on this site or in our dataset for purposes of your own that go beyond non-commercial research and academic purposes, you must obtain permission directly from the copyright owner. (adapted from <a href="http://people.cs.pitt.edu/~chris/photographer/" target=&ldquo;blank&rdquo;>Christopher Thomas</a>)</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-09-20 17:18:00 US Mountain Standard Time, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-10-17 11:43:36 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
 </tr>
 </table>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-101732254-2";
-urchinTracker();
-</script>
+</body>
+</html>
