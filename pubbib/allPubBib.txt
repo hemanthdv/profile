@@ -401,9 +401,98 @@ isbn={978-3-030-45529-3}
   publisher={Springer}
 }
 
-@inproceedings{choudhuri2021partial,
-  title={Partial Domain Adaptation Using Selective Representation Learning For Class-Weight Computation},
+@inproceedings{choudhuri2020partial,
+  title={Partial domain adaptation using selective representation learning For class-weight computation},
   author={Choudhuri, Sandipan and Paul, Riti and Sen, Arunabha and Li, Baoxin and Venkateswara, Hemanth},
-  booktitle={IEEE Asilomar Conference on Signals, Systems and COmputers},
+  booktitle={2020 54th Asilomar Conference on Signals, Systems, and Computers},
+  pages={289--293},
+  year={2020},
+  organization={IEEE}
+}
+
+@inproceedings{uppara2021effect,
+  title={Effect of Image Captioning with Description on the Working Memory},
+  author={Uppara, Nithiya Shree and McDaniel, Troy and Venkateswara, Hemanth},
+  booktitle={HCI International 2021-Late Breaking Papers: Cognition, Inclusion, Learning, and Culture: 23rd HCI International Conference, HCII 2021, Virtual Event, July 24--29, 2021, Proceedings 23},
+  pages={107--120},
+  year={2021},
+  organization={Springer}
+}
+
+@inproceedings{chhabra2021iterative,
+  title={Iterative Image Translation for Unsupervised Domain Adaptation},
+  author={Chhabra, Sachin and Venkateswara, Hemanth and Li, Baoxin},
+  booktitle={MULL 2021-Proceedings of the 1st Workshop on Multimedia Understanding with Less Labeling, co-located with ACM MM 2021},
   year={2021}
+}
+
+@inproceedings{chhabra2021glocal,
+  title={Glocal Alignment for Unsupervised Domain Adaptation},
+  author={Chhabra, Sachin and Dutta, Prabal Bijoy and Li, Baoxin and Venkateswara, Hemanth},
+  booktitle={MULL 2021-Proceedings of the 1st Workshop on Multimedia Understanding with Less Labeling, co-located with ACM MM 2021},
+  year={2021}
+}
+
+@inproceedings{chhabra2022patchswap,
+author    = {Sachin Chhabra and Hemanth Venkateswara and baoxin Li},
+title     = {PatchSwap: A Regularization Technique for Vision Transformers},
+booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+publisher = {{BMVA} Press},
+year      = {2022},
+url       = {https://bmvc2022.mpi-inf.mpg.de/0996.pdf}
+}
+
+@inproceedings{kakaraparthi2022peractiv,
+  title={PERACTIV: personalized activity monitoring-ask my hands},
+  author={Kakaraparthi, Vishnu and McDaniel, Troy and Venkateswara, Hemanth and Goldberg, Morris},
+  booktitle={International Conference on Human-Computer Interaction},
+  pages={255--272},
+  year={2022},
+  organization={Springer}
+}
+
+@inproceedings{choudhuri2022domain,
+  title={Domain-Invariant Feature Alignment Using Variational Inference for Partial Domain Adaptation},
+  author={Choudhuri, Sandipan and Adeniye, Suli and Sen, Arunabha and Venkateswara, Hemanth},
+  booktitle={2022 56th Asilomar Conference on Signals, Systems, and Computers},
+  pages={349--355},
+  year={2022},
+  organization={IEEE}
+}
+
+@article{choudhuri2022coupling,
+  title={Coupling Adversarial Learning with Selective Voting Strategy for Distribution Alignment in Partial Domain Adaptation},
+  author={Choudhuri, Sandipan and Venkateswara, Hemanth and Sen, Arunabha},
+  journal={Journal of Computational and Cognitive Engineering},
+  volume={1},
+  number={4},
+  pages={181--186},
+  year={2022}
+}
+
+@InProceedings{chhabra2023generative,
+    author    = {Chhabra, Sachin and Venkateswara, Hemanth and Li, Baoxin},
+    title     = {Generative Alignment of Posterior Probabilities for Source-Free Domain Adaptation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {4125-4134}
+}
+
+@inproceedings{chhabra2024patchrot,
+author    = {Sachin Chhabra and Hemanth Venkateswara and Baoxin Li},
+title     = {PatchRot: Self-Supervised Training of Vision Transformers by Rotation Prediction},
+booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},
+publisher = {BMVA},
+year      = {2024},
+url       = {https://papers.bmvc2024.org/0391.pdf}
+}
+
+@inproceedings{chhabra2024label,
+author    = {Sachin Chhabra and Hemanth Venkateswara and Baoxin Li},
+title     = {Label Smoothing++: Enhanced Label Regularization for Training Neural Networks},
+booktitle = {35th British Machine Vision Conference 2024, {BMVC} 2024, Glasgow, UK, November 25-28, 2024},
+publisher = {BMVA},
+year      = {2024},
+url       = {https://papers.bmvc2024.org/0392.pdf}
 }
